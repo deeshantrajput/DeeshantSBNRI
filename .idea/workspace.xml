@@ -21,78 +21,13 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="com.deeshant.deeshantsbnri" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b8afdc0-d433-4c39-b5ea-938afc969b04" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/deeshant/upgraded/instagram/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/InstagramApplication.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/local/db/DatabaseService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/local/db/dao/DummyDao.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/local/db/entity/DummyEntity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/local/prefs/UserPreferences.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/model/Dummy.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/model/User.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/remote/Endpoints.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/remote/NetworkService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/remote/Networking.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/remote/request/DummyRequest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/remote/response/DummyResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/remote/response/GeneralResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/repository/DummyRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/data/repository/UserRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/di/component/ActivityComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/di/component/ApplicationComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/di/component/FragmentComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/di/component/ViewHolderComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/di/module/ActivityModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/di/module/ApplicationModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/di/module/FragmentModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/di/module/ViewHolderModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/di/qualifiers.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/di/scopes.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/base/BaseActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/base/BaseAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/base/BaseFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/base/BaseItemViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/base/BaseItemViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/base/BaseViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/dummies/DummiesAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/dummies/DummiesFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/dummies/DummiesViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/dummies/DummyItemViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/dummies/DummyItemViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/dummy/DummyActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/dummy/DummyViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/splash/SplashActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/ui/splash/SplashViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/ViewModelProviderFactory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/common/Constants.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/common/Event.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/common/GlideHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/common/LoadMoreListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/common/Resource.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/common/Status.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/common/TimeUtils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/display/ScreenUtils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/display/Toaster.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/log/Logger.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/network/NetworkError.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/network/NetworkHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/rx/RxSchedulerProvider.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/upgraded/instagram/utils/rx/SchedulerProvider.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dummy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dummy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_view_dummies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_view_dummies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/deeshant/upgraded/instagram/ExampleUnitTest.kt" beforeDir="false" />
-    </list>
+    <list default="true" id="5b8afdc0-d433-4c39-b5ea-938afc969b04" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="bb8bc05" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="New_Device_1_API_28" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -114,6 +49,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eiUIVhQxgFVFjWo1a7DtgQwMYd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
