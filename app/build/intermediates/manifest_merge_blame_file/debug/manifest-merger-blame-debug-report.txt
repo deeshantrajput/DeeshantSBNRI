@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.deeshant.deeshantsbnri"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:5:5-78
+12-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.amitshekhar.android:debug-db-base:1.0.6] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/4e2079bddef9503518eea600e5e82b07/jetified-debug-db-base-1.0.6/AndroidManifest.xml:30:5-76
+13-->[com.amitshekhar.android:debug-db-base:1.0.6] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/4e2079bddef9503518eea600e5e82b07/jetified-debug-db-base-1.0.6/AndroidManifest.xml:30:22-73
+14
+15    <application
+15-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:7:5-26:19
+16        android:name="com.deeshant.deeshantsbnri.SbnApplication"
+16-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:8:13-69
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/cfe7526dd721218220af8f93cc9cb4d6/core-1.0.1/AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:9:13-47
+20        android:label="@string/app_name"
+20-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:10:13-45
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:11:13-58
+22        android:supportsRtl="true"
+22-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:12:13-39
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:13:13-44
+25        <activity
+25-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:15:9-23:20
+26            android:name="com.deeshant.deeshantsbnri.ui.splash.SplashActivity"
+26-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:15:19-85
+27            android:noHistory="true"
+27-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:17:19-43
+28            android:theme="@style/AppThemeFullscreen" >
+28-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:16:19-60
+29            <intent-filter>
+29-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:18:13-22:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:19:17-68
+30-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:19:25-66
+31                <action android:name="android.intent.action.VIEW" />
+31-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:20:17-68
+31-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:20:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:21:17-76
+33-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:21:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="com.deeshant.deeshantsbnri.ui.dummy.DummyActivity" />
+36-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:25:9-85
+36-->/Users/deeshant/projects/DeeshantSBNRI/app/src/main/AndroidManifest.xml:25:19-83
+37
+38        <provider
+38-->[com.amitshekhar.android:debug-db:1.0.6] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/55796ff4dbdbdfb157d0e7a970292e41/jetified-debug-db-1.0.6/AndroidManifest.xml:12:9-16:40
+39            android:name="com.amitshekhar.debug.DebugDBInitProvider"
+39-->[com.amitshekhar.android:debug-db:1.0.6] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/55796ff4dbdbdfb157d0e7a970292e41/jetified-debug-db-1.0.6/AndroidManifest.xml:13:13-69
+40            android:authorities="com.deeshant.deeshantsbnri.DebugDBInitProvider"
+40-->[com.amitshekhar.android:debug-db:1.0.6] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/55796ff4dbdbdfb157d0e7a970292e41/jetified-debug-db-1.0.6/AndroidManifest.xml:14:13-71
+41            android:enabled="true"
+41-->[com.amitshekhar.android:debug-db:1.0.6] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/55796ff4dbdbdfb157d0e7a970292e41/jetified-debug-db-1.0.6/AndroidManifest.xml:15:13-35
+42            android:exported="false" />
+42-->[com.amitshekhar.android:debug-db:1.0.6] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/55796ff4dbdbdfb157d0e7a970292e41/jetified-debug-db-1.0.6/AndroidManifest.xml:16:13-37
+43        <provider
+43-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/f47523315d3f4c865bfb1f1a35af391a/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+44            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/f47523315d3f4c865bfb1f1a35af391a/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+45            android:authorities="com.deeshant.deeshantsbnri.lifecycle-process"
+45-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/f47523315d3f4c865bfb1f1a35af391a/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+46            android:exported="false"
+46-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/f47523315d3f4c865bfb1f1a35af391a/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+47            android:multiprocess="true" />
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deeshant/.gradle/caches/transforms-2/files-2.1/f47523315d3f4c865bfb1f1a35af391a/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+48    </application>
+49
+50</manifest>
