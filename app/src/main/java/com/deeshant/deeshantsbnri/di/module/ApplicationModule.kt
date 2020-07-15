@@ -54,7 +54,7 @@ class ApplicationModule(private val application: SbnApplication) {
     fun provideDatabaseService(): DatabaseService =
         Room.databaseBuilder(
             application, DatabaseService::class.java,
-            "bootcamp-instagram-project-db"
+            "deesahnt-sbnri-project-db"
         ).build()
 
     @Provides

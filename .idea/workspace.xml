@@ -21,7 +21,17 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="com.deeshant.deeshantsbnri" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b8afdc0-d433-4c39-b5ea-938afc969b04" name="Default Changelist" comment="" />
+    <list default="true" id="5b8afdc0-d433-4c39-b5ea-938afc969b04" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/data/local/db/entity/License.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/data/local/db/entity/License.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/data/local/db/entity/Permisions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/data/local/db/entity/Permisions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/data/remote/NetworkService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/data/remote/NetworkService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/di/module/ApplicationModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/di/module/ApplicationModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/utils/common/Constants.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/utils/common/GlideHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/utils/common/LoadMoreListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/utils/common/TimeUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/deeshant/deeshantsbnri/utils/display/ScreenUtils.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
