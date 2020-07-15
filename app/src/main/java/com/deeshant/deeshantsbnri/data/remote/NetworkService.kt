@@ -8,8 +8,6 @@ import javax.inject.Singleton
 
 @Singleton
 interface NetworkService {
-
-
     @GET(Endpoints.DUMMY)
     fun doDummyCall(
         @Query("page")page: Int,

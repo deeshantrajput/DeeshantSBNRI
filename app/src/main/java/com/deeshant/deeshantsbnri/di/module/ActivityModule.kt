@@ -14,11 +14,6 @@ import dagger.Module
 import dagger.Provides
 import io.reactivex.disposables.CompositeDisposable
 
-/**
- * Kotlin Generics Reference: https://kotlinlang.org/docs/reference/generics.html
- * Basically it means that we can pass any class that extends BaseActivity which take
- * BaseViewModel subclass as parameter
- */
 @Module
 class ActivityModule(private val activity: BaseActivity<*>) {
 
@@ -34,7 +29,6 @@ class ActivityModule(private val activity: BaseActivity<*>) {
     ): SplashViewModel = ViewModelProviders.of(
         activity, ViewModelProviderFactory(SplashViewModel::class) {
             SplashViewModel(schedulerProvider, compositeDisposable, networkHelper, database)
-            //this lambda creates and return SplashViewModel
         }).get(SplashViewModel::class.java)
 
     @Provides

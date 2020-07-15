@@ -2,7 +2,6 @@ package com.deeshant.deeshantsbnri.di.module
 
 import android.app.Application
 import android.content.Context
-import android.content.SharedPreferences
 import androidx.room.Room
 import com.deeshant.deeshantsbnri.BuildConfig
 import com.deeshant.deeshantsbnri.SbnApplication
