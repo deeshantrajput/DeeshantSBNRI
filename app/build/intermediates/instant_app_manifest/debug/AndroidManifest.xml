@@ -7,11 +7,10 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="28" />
+        android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:name="com.deeshant.deeshantsbnri.SbnApplication"
@@ -36,11 +35,6 @@
         </activity>
         <activity android:name="com.deeshant.deeshantsbnri.ui.dummy.DummyActivity" />
 
-        <provider
-            android:name="com.amitshekhar.debug.DebugDBInitProvider"
-            android:authorities="com.deeshant.deeshantsbnri.DebugDBInitProvider"
-            android:enabled="true"
-            android:exported="false" />
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="com.deeshant.deeshantsbnri.lifecycle-process"

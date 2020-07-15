@@ -40,11 +40,6 @@ class ApplicationModule(private val application: SbnApplication) {
     @Provides
     fun provideSchedulerProvider(): SchedulerProvider = RxSchedulerProvider()
 
-    @Provides
-    @Singleton
-    fun provideSharedPreferences(): SharedPreferences =
-        application.getSharedPreferences("bootcamp-instagram-project-prefs", Context.MODE_PRIVATE)
-
     /**
      * We need to write @Singleton on the provide method if we are create the instance inside this method
      * to make it singleton. Even if we have written @Singleton on the instance's class

@@ -10,7 +10,6 @@ import com.deeshant.deeshantsbnri.data.repository.DummyRepository
 import com.deeshant.deeshantsbnri.ui.base.BaseViewModel
 import com.deeshant.deeshantsbnri.utils.common.Resource
 import com.deeshant.deeshantsbnri.utils.common.Status
-import com.deeshant.deeshantsbnri.utils.log.Logger
 import com.deeshant.deeshantsbnri.utils.network.NetworkHelper
 import com.deeshant.deeshantsbnri.utils.rx.SchedulerProvider
 import io.reactivex.disposables.CompositeDisposable
@@ -60,11 +59,7 @@ class DummiesViewModel(
                                 strs.forEach { it ->
                                    if(it.contains("last")){
                                        val uri: Uri = Uri.parse(it)
-                                       val server: String = uri.getAuthority()
-                                       val path: String = uri.getPath()
-                                       val protocol: String = uri.getScheme()
-                                       val args: Set<String> = uri.getQueryParameterNames()
-                                       last_page = uri.getQueryParameter("page").toInt()
+                                       last_page = uri.getQueryParameter("page")?.toInt() ?: 0
                                    }
                                 }
 

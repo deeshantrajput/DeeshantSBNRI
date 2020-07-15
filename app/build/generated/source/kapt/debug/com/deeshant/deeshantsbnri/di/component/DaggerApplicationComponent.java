@@ -3,7 +3,6 @@ package com.deeshant.deeshantsbnri.di.component;
 
 import android.app.Application;
 import android.content.Context;
-import android.content.SharedPreferences;
 import com.deeshant.deeshantsbnri.SbnApplication;
 import com.deeshant.deeshantsbnri.data.local.db.DatabaseService;
 import com.deeshant.deeshantsbnri.data.remote.NetworkService;
@@ -15,7 +14,6 @@ import com.deeshant.deeshantsbnri.di.module.ApplicationModule_ProvideDatabaseSer
 import com.deeshant.deeshantsbnri.di.module.ApplicationModule_ProvideNetworkHelperFactory;
 import com.deeshant.deeshantsbnri.di.module.ApplicationModule_ProvideNetworkServiceFactory;
 import com.deeshant.deeshantsbnri.di.module.ApplicationModule_ProvideSchedulerProviderFactory;
-import com.deeshant.deeshantsbnri.di.module.ApplicationModule_ProvideSharedPreferencesFactory;
 import com.deeshant.deeshantsbnri.utils.network.NetworkHelper;
 import com.deeshant.deeshantsbnri.utils.rx.SchedulerProvider;
 import dagger.internal.DoubleCheck;
@@ -33,8 +31,6 @@ public final class DaggerApplicationComponent implements ApplicationComponent {
   private Provider<NetworkService> provideNetworkServiceProvider;
 
   private Provider<DatabaseService> provideDatabaseServiceProvider;
-
-  private Provider<SharedPreferences> provideSharedPreferencesProvider;
 
   private Provider<NetworkHelper> provideNetworkHelperProvider;
 
@@ -61,9 +57,6 @@ public final class DaggerApplicationComponent implements ApplicationComponent {
     this.provideDatabaseServiceProvider =
         DoubleCheck.provider(
             ApplicationModule_ProvideDatabaseServiceFactory.create(applicationModuleParam));
-    this.provideSharedPreferencesProvider =
-        DoubleCheck.provider(
-            ApplicationModule_ProvideSharedPreferencesFactory.create(applicationModuleParam));
     this.provideNetworkHelperProvider =
         DoubleCheck.provider(
             ApplicationModule_ProvideNetworkHelperFactory.create(applicationModuleParam));
@@ -90,11 +83,6 @@ public final class DaggerApplicationComponent implements ApplicationComponent {
   @Override
   public DatabaseService getDatabaseService() {
     return provideDatabaseServiceProvider.get();
-  }
-
-  @Override
-  public SharedPreferences getSharedPreferences() {
-    return provideSharedPreferencesProvider.get();
   }
 
   @Override

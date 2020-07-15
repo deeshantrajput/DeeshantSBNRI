@@ -1105,7 +1105,6 @@ id filled
 id fixed
 id forever
 id ghost_view
-id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
@@ -1322,7 +1321,6 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
-string PORT_NUMBER
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
