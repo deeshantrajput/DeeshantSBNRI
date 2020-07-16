@@ -1,8 +1,6 @@
 package com.deeshant.deeshantsbnri.data.local.db.entity
 
-import androidx.room.Embedded
 import androidx.room.Entity
-import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
